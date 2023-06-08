@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>
+Registeration Page
+</title>
+<style>
+.head h1{
+     background-color : green;
+     text-align : center;
+     color : white;
+   }
+   label{
+      color : green;
+      font-size : 20px;
+    }
+    .main_btn{
+        width: 100px;
+        height: 50px;
+        border: white;
+        background-color: green;
+        border-radius: 5px;
+    }
+    input,textarea{
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        color: #333;
+        margin : .6rem 0;
+        border: .5rem solid rgba(0,0,0,3);
+        text-transform: none;
+    }
+    .radio.btn{
+        width: 20%;
+        font-size: 20px;
+        color: green;
+    }
+    .radio_btn label{
+        margin: 100px;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="head">
+            <h1 id="head">Registeration</h1>
+        </div>
+
+    <form action="registration.php" method="post">
+        <label>Firstname :</label>
+        <input type="text" name="firstname" size="15"/> <br> <br>
+
+        <label>Middlename :</label>
+        <input type="text" name="middlename" size="15"/> <br> <br>
+
+        <label>Lastname :</label>
+        <input type="text" name="lastname" size="15"/> <br> <br>
+
+        <label>Events :</label>
+        <select name="Eventname">
+            <option value="Event">Events</option>
+            <option value="Birthdays">Birthdays</option>
+            <option value="Babyshowers">Babyshowers</option>
+            <option value="Retirement Party">Retirement Party</option>
+            <option value="Weddings">Weddings</option>
+            <option value="Office Party">Office Party</option>
+            <option value="Anniversary">Anniversary</option>
+        </select>
+        <br>
+        <br>
+        <label>Payment :</label>
+        <select name="Payment">
+            <option value="select one">select one</option>
+            <option value="Cash">Cash</option>
+            <option value="gpay">gpay</option>
+            <option value="card">card</option>
+            <option value="net banking">net banking</option>
+        </select>
+    <div>
+        <label><br><br>Amount :</label><br>
+        <input type="amount" id="amount" name="amount"/> <br>
+        <br> <br>
+    </div>
+    <br>
+    <br>
+
+    <label> Phone: </label>
+    <input type="text" name="country-code" value="+91" size="2"/>
+    <input type="text" name="phone" size="10"/> <br> <br>
+
+    <label>Address</label>
+    <br>
+    <textarea cols="80" rows="5" value="address" name="address">
+    </textarea>
+    <br> <br>
+    <label> Email: </label>
+    <input type="email" id="email" name="email"/> <br>
+    <br> <br>
+    <label>Password: </label>
+     <input type="Password" id="pass" name="pass"> <br>
+     <br> <br>
+     <label> Re-type password: </label>
+     <input type="Password" id="repass" name="repass"><br>
+     <button class="main_btn" type="submit">Submit</button>
+
+    </form>
+    </body>
+    </html>

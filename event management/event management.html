@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management</title>
+<!--    font links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!--    custemise css file-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <nav>
+            <a href="#" class="logo">
+                <img src="event1.png">
+            </a>
+            <ul class="menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Themes</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Branches</a></li>
+                <select name="Branches">  
+                <option value="Branches">Branches</option>  
+            <option value="Mumbai">Mumbai</option>  
+            <option value="Jaipur">Jaipur</option>  
+            <option value="Goa">Goa</option>  
+            <option value="Amritsar">Amritsar</option>  
+            </select> 
+                <li><a href="./register.html">Register</a></li>
+                <li><a href="#Contact us">Feedback</a></li>
+            </ul>
+        </nav>
+        <div class="main_heading">
+            <h1>Dream Events into Reality</h1>
+            <p>WE'RE HERE TO MAKE YOUR MOMENTS SPECIAL
+            </p>
+            
+        </div>
+    </section>
+    <section class="features">
+        <div class="features_container">
+            
+            <div class="features_box">
+                <div class="f_img">
+                    <img src="birthday1.png">
+                </div>
+                <div class="f_text"> <br>
+                    <h4>Birthdays</h4>
+                    <p> Making your Birthday as per your wish</p>
+                    <a href="#" class="main_btn">Check</a>
+                </div>
+            </div>
+            
+            <div class="features_box">
+                <div class="f_img">
+                    <img src="babyshower.png">
+                </div>
+                <div class="f_text"> <br>
+                    <h4>Baby Showers</h4>
+                    <p>Welcoming your babygirl or babyboy</p>
+                    <a href="#" class="main_btn">Check</a>
+                </div>
+            </div>
+
+            <div class="features_box">
+                <div class="f_img">
+                    <img src="retirement.png">
+                </div>
+                <div class="f_text"> <br>
+                    <h4>Retirement Party</h4>
+                    <p>Cheers to 60 years of your hardwork</p>
+                    <a href="#" class="main_btn">Check</a>
+                </div>
+            </div>
+            
+            <div class="features_box">
+                <div class="f_img">
+                    <img src="wedding.png">
+                </div>
+                <div class="f_text"> <br>
+                    <h4>Weddings</h4>
+                    <p>We make your moments special.</p>
+                    <a href="#" class="main_btn">Check</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="about">
+        <div class="about_img">
+            <img src="birthday.png">
+        </div>
+        <div class="about_text">
+            <h2>Overview of events</h2>
+            <p>Some of our best events including Birthdays, Babyshowers, Weddings,etc</p>
+            <button class="main_btn"> Tap to see</button>
+        </div>
+    </section>
+    <section class="contact us" id="Contact us">
+        <div class="contact_heading">
+            <h1>Give feedback</h1>
+        </div>
+        <form action="userinfo.php" method="post">
+            <input type="text" name="user" placeholder="Enter your name"/>
+            <input type="email" name="email" placeholder="Enter your email"/>
+            <textarea name="message" placeholder="Type your message......"></textarea>
+            <button class="main_btn" type="submit">Continue</button>
+        </form>
+
+    </section>
+</body>
+</html>
